@@ -1,0 +1,268 @@
+[
+  {
+    "id": 225515,
+    "ivaId": 718596,
+    "debtorId": 782982,
+    "dateSentByIp": "2022-09-28T00:00:00",
+    "dateVariationRecorded": "2022-09-28T00:00:00",
+    "dateOfMeeting": "2022-10-06T00:00:00",
+    "variationDividend": 0.3296,
+    "revisedSupervisorFee": 0.5,
+    "newIvaDuration": null,
+    "comments": "Debtor has changed employment, reduced to part time hours with a view to commencing studies in Jan 2023.\r\ncreditors agree to reduce the IVA contributions from £410 to (0, the additional income of £8742.96 is written off, 12 month ext in lieu\r\n\r\nvarvote-mod-1/2-PMcN",
+    "isReviewed": false,
+    "meetingOutcome": null,
+    "extension": null,
+    "resolutions": [
+      {
+        "id": 1,
+        "variationId": 225515,
+        "number": 1,
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "reasons": [
+          {
+            "id": 104351,
+            "variationResolutionId": 1,
+            "variationResolutionReasonId": 34,
+            "parameters": [
+              {
+                "id": 1,
+                "text": "Updated dividend after reduction - total dividend",
+                "code": "<34_reducedDividend>",
+                "value": "0.3296",
+                "dataType": "decimal",
+                "active": true,
+                "isOptional": true,
+                "validationRules": null
+              }
+            ]
+          },
+          {
+            "id": 104352,
+            "variationResolutionId": 1,
+            "variationResolutionReasonId": 35,
+            "parameters": []
+          },
+          {
+            "id": 104353,
+            "variationResolutionId": 1,
+            "variationResolutionReasonId": 38,
+            "parameters": []
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "variationId": 225515,
+        "number": 2,
+        "text": "Tempor dolor dolore aliquip est anim voluptate.",
+        "reasons": [
+          {
+            "id": 104351,
+            "variationResolutionId": 2,
+            "variationResolutionReasonId": 30,
+            "parameters": []
+          },
+          {
+            "id": 104352,
+            "variationResolutionId": 2,
+            "variationResolutionReasonId": 32,
+            "parameters": []
+          },
+          {
+            "id": 104353,
+            "variationResolutionId": 2,
+            "variationResolutionReasonId": 34,
+            "parameters": []
+          }
+        ]
+      }
+    ],
+    "reasons": [
+      {
+        "id": 104351,
+        "variationId": 225515,
+        "variationReasonId": 23,
+        "parameters": []
+      },
+      {
+        "id": 104352,
+        "variationId": 225515,
+        "variationReasonId": 6,
+        "parameters": []
+      },
+      {
+        "id": 104353,
+        "variationId": 225515,
+        "variationReasonId": 12,
+        "parameters": []
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "ivaId": 123456,
+    "debtorId": 789012,
+    "dateSentByIp": "2022-10-15T00:00:00",
+    "dateVariationRecorded": "2022-10-15T00:00:00",
+    "dateOfMeeting": "2022-11-01T00:00:00",
+    "variationDividend": 0.25,
+    "revisedSupervisorFee": 100,
+    "newIvaDuration": 60,
+    "comments": "This is a test variation.",
+    "isReviewed": true,
+    "meetingOutcome": "Agreed",
+    "extension": {
+      "reason": "Debtor has experienced unexpected financial hardship.",
+      "duration": 12
+    },
+    "resolutions": [
+      {
+        "id": 1,
+        "description": "Resolution 1"
+      },
+      {
+        "id": 2,
+        "description": "Resolution 2"
+      }
+    ],
+    "reasons": [
+      {
+        "id": 1,
+        "variationId": 1,
+        "variationReasonId": 1,
+        "parameters": [
+          "Parameter 1",
+          "Parameter 2"
+        ]
+      },
+      {
+        "id": 2,
+        "variationId": 1,
+        "variationReasonId": 2,
+        "parameters": [
+          "Parameter 3"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "ivaId": 654321,
+    "debtorId": 210987,
+    "dateSentByIp": "2022-10-20T00:00:00",
+    "dateVariationRecorded": "2022-10-20T00:00:00",
+    "dateOfMeeting": "2022-11-15T00:00:00",
+    "variationDividend": 0.5,
+    "revisedSupervisorFee": 200,
+    "newIvaDuration": 72,
+    "comments": "This is another test variation.",
+    "isReviewed": false,
+    "meetingOutcome": null,
+    "extension": null,
+    "resolutions": [
+      {
+        "id": 3,
+        "description": "Resolution 3"
+      },
+      {
+        "id": 4,
+        "description": "Resolution 4"
+      }
+    ],
+    "reasons": [
+      {
+        "id": 3,
+        "variationId": 2,
+        "variationReasonId": 3,
+        "parameters": [
+          "Parameter 4",
+          "Parameter 5",
+          "Parameter 6"
+        ]
+      },
+      {
+        "id": 4,
+        "variationId": 2,
+        "variationReasonId": 4,
+        "parameters": [
+          "Parameter 7"
+        ]
+      }
+    ]
+  },
+  {
+    "id": -1,
+    "debtorId": 782982,
+    "isReviewed": false,
+    "ivaId": 718596,
+    "dateOfMeeting": "2023-09-27T00:00:00",
+    "variationDividend": "1",
+    "revisedSupervisorFee": "1",
+    "newIvaDuration": "11",
+    "reasons": [
+      {
+        "id": -1,
+        "variationId": -1,
+        "variationReasonId": 42,
+        "parameters": [
+          {
+            "id": 15,
+            "text": "New Supervisor Fee",
+            "code": "<42_newFee>",
+            "value": null,
+            "dataType": "decimal",
+            "active": false,
+            "isOptional": false,
+            "validationRules": null
+          }
+        ]
+      },
+      {
+        "id": -1,
+        "variationId": -1,
+        "variationReasonId": 43,
+        "parameters": []
+      }
+    ],
+    "resolutions": [
+      {
+        "id": 1,
+        "variationId": -1,
+        "number": 1,
+        "text": "adssad",
+        "reasons": [
+          {
+            "id": 36,
+            "variationResolutionId": 1,
+            "variationResolutionReasonId": 36,
+            "parameters": [
+              {
+                "id": 19,
+                "text": "Full and Final Settlement - Lump Sum Amount",
+                "code": "<36_finalSettleAmount>",
+                "value": "4",
+                "dataType": "decimal",
+                "active": true,
+                "isOptional": false,
+                "validationRules": null
+              },
+              {
+                "id": 21,
+                "text": "Full and Final Settlement - Funds to Date",
+                "code": "<36_finalSettleIncludeF2D>",
+                "value": "true",
+                "dataType": "bool",
+                "active": true,
+                "isOptional": false,
+                "validationRules": null
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "comments": "asdada",
+    "uniqueKey": "1694610952504"
+  }
+]
